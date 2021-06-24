@@ -1,0 +1,159 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.8;
+}
+h3{
+    padding-top: 5%;
+    font-size: large;
+}
+
+p{
+    color:grey;
+}
+#title {
+
+    background-color: rgb(14, 182, 146);
+    color: white;
+    
+}
+.container-fluid{
+    padding: 5% 15% ;
+}
+
+/* navigation bar */
+.navbar{
+    padding:0 0 5%;
+
+}
+
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-tem{
+    padding: 0 18px 18px;
+}
+.nav-link{
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+/* download-buttons */
+.download-button{
+    margin: 5% 0 0;
+}
+/* tittle-image */
+.image{
+    width: 20%;
+    transform: rotate(24deg);
+    position: absolute;
+    left: 60%;
+
+}
+/* features */
+#features{
+    background-color: white;
+    padding: 7% 15%;
+   position: relative;
+   /* z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: rgb(14, 182, 146);
+}
+.icon:hover{
+    color: rgb(7, 83, 67);
+}
+/* testimonials */
+
+#testimonials{
+    
+    text-align: center;
+    background-color:  rgb(38, 192, 159);
+    color: rgb(240, 240, 240);
+}
+.dog-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.carousel-item{
+    padding: 7%  15%;
+}
+
+#press{
+    background-color: rgb(38, 192, 159);
+    padding: 3%;
+    text-align: center;
+
+}
+
+.logos{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+#cta{
+    background-color:rgb(38, 192, 159);
+    text-align: center;
+    padding: 5% 15%
+}
+.end{
+    color: white;
+    
+    font-size: 3rem;
+    line-height: 1.8;
+}
+.socio{
+    margin: 5px;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 4%;
+}
+.copy{
+    padding-top: 1%;
+}
+
+
+/* mobile-view */
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .image{
+        position: static;
+        width: 40%;
+        padding-top: 3%;
+        transform: rotate(0);
+    }
+    h1{
+        line-height: 1;
+    }
+}
+
